@@ -13,7 +13,7 @@ import it.polito.tdp.crimes.model.Event;
 
 
 public class EventsDao {
-	
+	String hh;
 	public List <String> getCategorie(){
 		String sql = "SELECT DISTINCT offense_category_id FROM events" ;
 	
